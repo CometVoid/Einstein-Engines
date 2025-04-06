@@ -98,7 +98,7 @@
     sprite: Clothing/Neck/mantles/unathimantle.rsi
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: [ClothingNeckBase, ClothingShoesBootsMag]
   id: ClothingNeckHarpyReconMantle
   name: HV-79x Perun Airborne Recon Mantle
   description: colloquially known as HARM or Harpy arm. Originally started as a project for SOL and their forward recon elements, but had poor results with the heavier build of humans. With a harpy however...
@@ -107,3 +107,13 @@
     sprite: Clothing/Neck/mantles/oldmantle.rsi
   - type: Clothing
     sprite: Clothing/Neck/mantles/oldmantle.rsi
+  - type: ToggleClothing
+    action: ActionToggleMagboots
+  - type: ComponentToggler
+    components:
+    - type: NoSlip
+    - type: ClothingSpeedModifier
+      walkModifier: 0.5
+      sprintModifier: 0.5
+  - type: Magboots
+

@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckHarpyReconMantle
-  name: HV-79x "Perun" Airborne Recon Mantle
-  description: colloquially known as - "HARM" or Harpy arm. Originally started as a project for SOL and their forward recon elements but ultimately discontinued due to disappointing results. Information stolen and ultimately sold in a database hack, inventive minds discovered while the product did not work well with the heavier anatomy of human beings - it complemented and enhanced the natural abilities of harpies. (limited usage due to it being prohibitively expensive)
+  name: HV-79x Perun Airborne Recon Mantle
+  description: colloquially known as HARM or Harpy arm. Originally started as a project for SOL and their forward recon elements, but had poor results with the heavier build of humans. With a harpy however...
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/oldmantle.rsi
